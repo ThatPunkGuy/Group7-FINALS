@@ -1,0 +1,28 @@
+body{
+    background-color: blanchedalmond;
+}
+.tipmanila{
+    padding: 25px;
+    border-spacing: 20px;
+}
+.tipqc{
+    padding: 25px;
+    border-spacing: 20px;
+}
+.fas{
+   
+        padding: 15px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        color: #fae608; 
+        background: #201f1d;
+        
+}
+.fas:hover{
+    opacity: 0.7;
+    
+}
