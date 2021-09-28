@@ -81,6 +81,13 @@ nav ul li a:hover{
     justify-content: center;
     padding-left: 22px;
 }
+.white-body{
+    
+    background-color:var(--white);
+    width:100%;
+    height: 500px;
+    padding-left: 90%;
+}
 
 
 
@@ -105,12 +112,12 @@ html{
 .vtabs .tab{
     margin: 5px;
     padding: 5px;
-    margin-top: 75px;
+    margin-top: 35px;
 }
 .vtabs .tab .tabcourse{
     color:var(--yellow);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     padding: 5px;
     padding-top: -10px ;
 }
@@ -150,18 +157,10 @@ section{
     height: 1000px;
     font-size: 15px;
 }
-#section4{
-    background: #e7d403 ;
-    width:100%;
-    height: 1000px;
-    font-size: 15px;
-   
-    
-}
 .paragraph{
     margin-left: 10%;
-font-size: 20px;
-color: #e7d403;
+    font-size: 20px;
+    color: #e7d403;
 }
 h2{
     border-bottom: 2px solid #e7d403;
