@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+    line-height: 1.5;
+}
+.tabs{
+    max-width: 1000px;
+    padding: 20px;
+    margin: 25px;
+    position: relative;
+}
+.tabs input{
+    display: none;
+}
+.tabs label{
+    display: block;
+    width: 20%;
+    padding: 15px;
+    color: #201f1d;
+    font-weight: 700;
+    font-size: 20px;
+    border-left: 5px solid #201f1d;
+    transition: .3s ease;
+}
+.tabs label:hover{
+    cursor: pointer;
+    color: #fae608;
+
+}
+.tabs input:checked + label{
+    color:#fae608;
+    border-left: 5px solid #fae608;
+}
+.tabs #tab1:checked ~ .vtabs-content #content1,
+.tabs #tab2:checked ~ .vtabs-content #content2,
+.tabs #tab3:checked ~ .vtabs-content #content3,
+.tabs #tab4:checked ~ .vtabs-content #content4
+{
+    display: block;
+}
+.tabs .vtabs-content{
+    position: absolute;
+    top: 0;
+    max-width: 65%;
+    right: 25px;
+
+}
+.tabs .vtabs-content div{
+    display: none;
+}
