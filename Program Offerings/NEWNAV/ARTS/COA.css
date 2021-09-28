@@ -5,16 +5,19 @@ body{
 p{
     line-height: 1.5;
 }
-.tabs{
-    max-width: 1000px;
+html{
+    scroll-behavior: smooth;
+}
+.vtabs{
+    max-width: 50%;
     padding: 20px;
     margin: 25px;
     position: relative;
 }
-.tabs input{
+.vtabs input{
     display: none;
 }
-.tabs label{
+.vtabs label{
     display: block;
     width: 20%;
     padding: 15px;
@@ -24,29 +27,36 @@ p{
     border-left: 5px solid #201f1d;
     transition: .3s ease;
 }
-.tabs label:hover{
+.vtabs label:hover{
     cursor: pointer;
     color: #fae608;
 
 }
-.tabs input:checked + label{
+.vtabs input:checked + label{
     color:#fae608;
     border-left: 5px solid #fae608;
 }
-.tabs #tab1:checked ~ .vtabs-content #content1,
-.tabs #tab2:checked ~ .vtabs-content #content2,
-.tabs #tab3:checked ~ .vtabs-content #content3,
-.tabs #tab4:checked ~ .vtabs-content #content4
-{
-    display: block;
-}
-.tabs .vtabs-content{
+.vtabs .vtabscontent {
     position: absolute;
     top: 0;
     max-width: 65%;
-    right: 25px;
-
+    right: 20px;  
 }
-.tabs .vtabs-content div{
+.vtabs .vtabscontent div{
     display: none;
+}
+.vtabs #tab1:checked ~ .vtabscontent #content1,
+.vtabs #tab2:checked ~ .vtabscontent #content2,
+.vtabs #tab3:checked ~ .vtabscontent #content3,
+.vtabs #tab4:checked ~ .vtabscontent #content4
+{
+    display: contents;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
