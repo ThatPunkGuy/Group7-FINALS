@@ -97,8 +97,6 @@ html{
     scroll-behavior: smooth;
     font-family: tahoma;
 }
-
-
 .vtabs{
     list-style: none;
     height: 100%;
@@ -112,15 +110,15 @@ html{
 }
 .vtabs .tab{
     margin: 5px;
-    padding: 10px;
-    margin-top: 17px;
+    padding: 5px;
+    margin-top: 18px;
     text-align: center;
     
 }
 .vtabs .tab .tabcourse{
     color:var(--yellow);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     padding: 5px;
     padding-top: -10px ;
 }
@@ -179,36 +177,8 @@ section{
     height: 1000px;
     font-size: 15px;
 }
-#section7{
-    background: #201f1d ;
-    width:100%;
-    height: 1000px;
-    font-size: 15px;
-}
-#section8{
-    background: #e7d403 ;
-    width:100%;
-    height: 1000px;
-    font-size: 15px;
-}
-#section9{
-    background: #201f1d ;
-    width:100%;
-    height: 1000px;
-    font-size: 15px;
-}
-#section10{
-    background: #e7d403 ;
-    width:100%;
-    height: 1000px;
-    font-size: 15px;
-}
-#section11{
-    background: #201f1d ;
-    width:100%;
-    height: 1000px;
-    font-size: 15px;
-}
+
+
 
 .paragraph{
     margin-left: 10%;
