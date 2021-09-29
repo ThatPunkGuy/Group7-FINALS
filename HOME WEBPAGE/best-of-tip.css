@@ -91,7 +91,7 @@ html{
     width: 100px;
     position: fixed;
     top: 0; left: 0;
-    background: #201f1d ;
+    background: var(--dark-yellow);
     width: 150px;
     box-shadow: 2px 0px 5px var(--yellow);
     
@@ -102,20 +102,20 @@ html{
     margin-top: 70px;
 }
 .vtabs .tab .tabcourse{
-    color:var(--yellow);
+    color:var(--black);
     text-decoration: none;
     font-size: 18px;
     padding: 5px;
     padding-top: -10px ;
 }
 .vtabs .tab .tabcourse{
-    color:var(--yellow);
+    color:var(--black);
 }
 .vtabs .tab .tabcourse:hover{
     color:white;
 }
 .fas {
-    color:yellow;
+    color:var(--black);
     margin-top: -40px;
     font-size: 20px;
 }
