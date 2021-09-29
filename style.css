@@ -105,7 +105,7 @@ html{
     width: 100px;
     position: fixed;
     top: 0; left: 0;
-    background: #201f1d ;
+    background: var(--yellow);
     width: 150px;
     box-shadow: 2px 0px 5px var(--yellow);
     
@@ -116,14 +116,14 @@ html{
     margin-top: 165px;
 }
 .vtabs .tab .tabcourse{
-    color:var(--yellow);
+    color:black;
     text-decoration: none;
     font-size: 20px;
     padding: 5px;
     padding-top: -10px ;
 }
 .vtabs .tab .tabcourse{
-    color:var(--yellow);
+    color:black;
 }
 .vtabs .tab .tabcourse:hover{
     color:white;
