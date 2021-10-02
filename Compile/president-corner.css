@@ -104,9 +104,9 @@ html{
     width: 100px;
     position: fixed;
     top: 0; left: 0;
-    background: #201f1d ;
+    background: var(--yellow) ;
     width: 150px;
-    box-shadow: 2px 0px 5px var(--yellow);
+    box-shadow: 2px 0px 5px var(--black);
     
 }
 .vtabs .tab{
@@ -122,15 +122,16 @@ html{
     padding-top: -10px ;
 }
 .vtabs .tab .tabcourse{
-    color:var(--yellow);
+    color:var(--black);
 }
 .vtabs .tab .tabcourse:hover{
     color:white;
 }
 .fas {
-    color:yellow;
+    color:var(--black);
     margin-top: -40px;
     font-size: 20px;
+    text-decoration: none;
 }
 section{
     height: 100vh;

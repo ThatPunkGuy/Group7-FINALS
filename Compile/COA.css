@@ -81,7 +81,7 @@ nav ul li a:hover{
     height: 400px;
     background:  url('https://www.tip.edu.ph/about_tip/Students.jpg');
     background-size: cover;
-    margin-left: 90px;
+ margin-right: 100px;
     
   }
 
@@ -110,7 +110,7 @@ html{
 .vtabs .tab{
     margin: 5px;
     padding: 5px;
-    margin-top: 75px;
+    margin-top: 50px;
     text-align: center;
 }
 .vtabs .tab .tabcourse{
@@ -130,6 +130,7 @@ html{
     color:var(--black);
     margin-top: -40px;
     font-size: 20px;
+    text-decoration: none;
 }
 section{
     height: 100vh;
