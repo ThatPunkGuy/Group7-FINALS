@@ -63,16 +63,17 @@ nav ul li a:hover{
 }
 /* contacts */
 .contacts-container{
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
 }
-.contacts, #right{
+.contacts1, .contacts2, .contacts3{
   padding-right: 10px;
   padding: 10px;
 }
 #right{
   float:right;
 }
-.contacts a {
+.contacts1 a{
   
   font-size: 18px;
   font-weight: bold;;
@@ -81,10 +82,19 @@ nav ul li a:hover{
   padding: 10px;
   right: 1;
 }
-.contacts a:hover{
-  color:var(--white);
-  background-color: black;
+.contacts1 .fa {
+  font-size: 23px;
 }
+.fa a:hover {
+  opacity: 0.7;
+}
+.contacts1 a:hover{
+opacity: 0.7;
+background-color: var(--black);
+color:var(--dark-yellow);
+border-radius: 1em;
+}
+
 
 /* Design of TIP */
 .header{
