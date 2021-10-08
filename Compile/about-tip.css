@@ -79,14 +79,12 @@ nav ul li a:hover{
 }
 
 .header-img {
-    width: 75%;
     height: 400px;
     padding-bottom: 150px;
-    background: url('https://media.istockphoto.com/photos/presentation-service-delivery-and-positive-feedback-concept-black-picture-id1261597991?s=612x612');
-    background-size: cover;
-    margin-left: 280px;
-    
-  
+    background: url("https://scontent.fmnl17-4.fna.fbcdn.net/v/t1.6435-9/242573827_5066157836734852_5748954196234937429_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeFAyAlG-Eu16tfbxOQkYe2B3vNIwXL53Zre80jBcvndmpv4OMn0upmvtxHrUXEbz9eXMgxEO_8HEu2ZwB44DW1Q&_nc_ohc=ibXWu33G4lsAX9KrC4X&_nc_ht=scontent.fmnl17-4.fna&oh=c9870a9ee1c7e957bbc4f39783353bb5&oe=618727FA");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-left: 150px;
   }
 
 
@@ -130,7 +128,7 @@ html{
     color:var(--black);
 }
 .vtabs .tab .tabcourse:hover{
-    color:var(--white);
+   font-weight: bold;
 }
 .fas {
     color:var(--black);
