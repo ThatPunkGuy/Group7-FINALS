@@ -118,7 +118,7 @@ html{
     color:var(--black);
 }
 .vtabs .tab .tabcourse:hover{
-    color:white;
+    font-weight: bold;
 }
 .fas {
     color:yellow;
